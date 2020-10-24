@@ -12,13 +12,13 @@ INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VA
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('3','Dr. Abdullahil Azeem','IPE','PROFESSOR','https://ipe.buet.ac.bd/wp-content/uploads/2018/06/Abdullahil-Azeem.jpg');
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('4','Dr. A.K.M Masud','IPE','PROFESSOR','https://ipe.buet.ac.bd/wp-content/uploads/2018/06/Dr.-A.-K.-M.-Masud-2.jpg');
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('5','Dr. A.B.M. Mainul Bari','IPE','ASSISTANT PROFESSOR','https://ipe.buet.ac.bd/wp-content/uploads/2020/08/Dr.-Mainul-Bari.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('6','Dr. Ferdous Sarwar','Associate Professor','IPE','https://ipe.buet.ac.bd/wp-content/uploads/2018/06/DSC_0054.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('6','Dr. Ferdous Sarwar','IPE','Associate Professor','https://ipe.buet.ac.bd/wp-content/uploads/2018/06/DSC_0054.jpg');
 
 /*cse*/
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('7','Dr.M.Kaykobad','Professor','CSE','https://cse.buet.ac.bd/faculty/photos/kaykobadkaykobad.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('8','Dr.Muhammad Masroor Ali ','PROFESSOR', 'CSE', 'https://cse.buet.ac.bd/faculty/photos/mmasrooralimasroorPPphoto.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('9','Dr. Md. Abul Kashem Mia','PROFESSOR','CSE','https://cse.buet.ac.bd/faculty/photos/kashemkashem+sir+2.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('10',' Dr. Md. Mostofa Akbar','PROFESSOR','CSE','https://cse.buet.ac.bd/faculty/photos/mostofamostofa.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('7','Dr.M.Kaykobad','CSE','Professor','https://cse.buet.ac.bd/faculty/photos/kaykobadkaykobad.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('8','Dr.Muhammad Masroor Ali ','CSE','PROFESSOR',  'https://cse.buet.ac.bd/faculty/photos/mmasrooralimasroorPPphoto.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('9','Dr. Md. Abul Kashem Mia','CSE','PROFESSOR','https://cse.buet.ac.bd/faculty/photos/kashemkashem+sir+2.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('10',' Dr. Md. Mostofa Akbar','CSE','PROFESSOR','https://cse.buet.ac.bd/faculty/photos/mostofamostofa.jpg');
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('11',' Dr. Muhammad Abdullah Adnan','CSE','Associate Professor','https://cse.buet.ac.bd/faculty/photos/adnanAdnanweb2.jpg');
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('12',' Md. Saiful Islam','CSE','Lecturer','https://cse.buet.ac.bd/faculty/photos/saifulislam.jpg');
 
@@ -58,11 +58,11 @@ INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VA
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('37','Anindya Kishore Debnath','URP','Assistant Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Khan-Mahmud-Amanat.jpg');
 
 /*CHE*/
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('38','Dr. Iqbal Mahmud','ch.E','Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Munaz-Ahmed-Noor.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('39','Dr. Mohidus Samad Khan','ch.E','Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Raquib-Ahsan.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('40','Dr. Md. Iqbal Hossain','ch.E','Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-A.F.M.-Saiful-Amin.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('41','Dr. Md. Shahinoor Islam','ch.E','Associate Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Syed-Ishtiaq-Ahmad.jpg');
-INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('42','Dr. Md. Easir Arafat Khan','ch.E','Assistant Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Md.-Mizanur-Rahman.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('38','Dr. Iqbal Mahmud','Ch.E','Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Munaz-Ahmed-Noor.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('39','Dr. Mohidus Samad Khan','Ch.E','Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Raquib-Ahsan.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('40','Dr. Md. Iqbal Hossain','Ch.E','Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-A.F.M.-Saiful-Amin.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('41','Dr. Md. Shahinoor Islam','Ch.E','Associate Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Syed-Ishtiaq-Ahmad.jpg');
+INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('42','Dr. Md. Easir Arafat Khan','Ch.E','Assistant Professor','https://ce.buet.ac.bd/wp-content/uploads/2018/10/Dr.-Md.-Mizanur-Rahman.jpg');
 
 
 /*NAME*/
@@ -83,10 +83,3 @@ INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VA
 
 /*INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('','','','','');
 INSERT INTO INSTRUCTORS (INS_ID,INS_NAME,DEPT_ID,DESIGNATION,PROFILE_PICTURE) VALUES('','','','','');*/
-
-
-
-
-
-
-
