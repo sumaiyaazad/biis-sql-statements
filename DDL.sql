@@ -34,10 +34,10 @@ term_id varchar2(10),
 ins_id varchar2(50), 
 hall_name varchar2(100),
 hall_status varchar2(50),
-mobile_number number,
+mobile_number varchar2(11),
 address varchar2(500), 
 contact_person_name VARCHAR2(200) , 
-contact_person_number NUMBER ,
+contact_person_number varchar2(11) ,
 psswrd varchar2(50),
 profile_picture varchar2(1000),
 constraint students_pk primary key (student_id),
@@ -48,35 +48,37 @@ constraint adviser foreign key (ins_id) references instructors
 
 -- drop table courses;
 create table courses(
-course_id varchar2(6) ,
-course_title varchar2(50),
-credit_hour number(3),
-dept_id varchar2(50) ,
-available_dept varchar2(50) ,
-constraint c_pk primary key(course_id),
-constraint dept_fk foreign key(dept_id) references departments(dept_id) ,
-constraint avl_dept_fk foreign key(available_dept) references departments(dept_id)
+course_id varchar2(20) ,
+course_title varchar2(200),
+credit_hour number(3,2),
+constraint c_pk primary key(course_id)
 );
 
 -- drop table courseinterm purge;
 create table courseinterm(
-course_id varchar2(6),
-term_id varchar2(10) ,
-constraint course_term_pk primary key(course_id,term_id),
+course_id varchar2(20),
+available_dept varchar2(50),
+term_id varchar2(10),
+constraint course_term_pk primary key(course_id,term_id,available_dept),
 constraint c_fk foreign key(course_id) references courses(course_id),
-constraint trm_fk foreign key(term_id) references academic_term(term_id)
+constraint trm_fk foreign key(term_id) references academic_term(term_id),
+constraint avl_dpt_fk foreign key(available_dept) references departments(dept_id)
 );
 
 -- drop table registration purge;
 create table registration(
 student_id number,
-course_id varchar2(6),
+course_id varchar2(20),
 term_id varchar2(10),
-approved_status number(1),
-obtained_grade VARCHAR2(2),
-constraint registration_pk primary key (student_id,course_id),
+obtained_grade_point number,
+constraint registration_pk primary key (student_id,course_id,term_id),
 constraint std_fk foreign key(student_id) references students(student_id),
 constraint course_fk foreign key(course_id) references courses(course_id),
 constraint term_fk foreign key(term_id) references academic_term(term_id) 
 );
 
+-- drop table grade purge;
+create table grades(
+grade VARCHAR(3),
+grade_point NUMBER
+);
