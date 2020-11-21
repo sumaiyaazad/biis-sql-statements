@@ -23,3 +23,14 @@ COMMIT;
 END;
 
 	
+create or replace trigger change_password
+before update
+of PSSWRD
+on students
+for each row
+declare
+begin
+:new.PSSWRD:=HASH_PASSWORD(:new.PSSWRD);
+end;
+
+
