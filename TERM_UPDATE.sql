@@ -4,7 +4,6 @@ trm varchar2(10);
 lvl varchar2(10);
 iyear varchar2(10);
 BEGIN
-nxt_trm:='14-15/1-1';
 trm:=substr(trm_id,9,1);
 lvl:=substr(trm_id,7,1);
 iyear:=substr(TRM_ID,1,2);
@@ -31,7 +30,7 @@ end;
 
 create or replace trigger update_term
 before update
-of OBTAINED_GRADE_POINT
+of published
 on REGISTRATION
 for each row
 declare
@@ -48,5 +47,5 @@ end if;
 end if;
 end;
 
---update registration set OBTAINED_GRADE_POINT=NULL where student_id=1505050 and term_id='18-19/4-2' and COURSE_ID='CSE 400';
+--update registration set published=1 where student_id=1505050 and term_id='18-19/4-1' and COURSE_ID='CSE 400';
 
